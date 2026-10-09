@@ -1,26 +1,30 @@
 
-from .database import get_supabase_client
 
+import os
+import ollama
+from dotenv import load_dotenv
 
-def main():
-    print("AI Automation Project Starting...")
+load_dotenv()
 
-    try:
-        supabase = get_supabase_client()
-        print("Supabase client initialized successfully!")
+MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
+BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
-        response = (
-            supabase.table("test_users")
-            .select("*")
-            .limit(5)
-            .execute()
-        )
+client = ollama.Client(host=BASE_URL)
 
-        print("Database records:", response.data)
-
-    except Exception as error:
-        print("Connection or query failed:", error)
-
+def ask_ai(question):
+    response = client.chat(
+        model=MODEL,
+        messages=[
+            {"role": "user", "content": question}
+        ]
+    )
+    return response["message"]["content"]
 
 if __name__ == "__main__":
-    main()
+    print("AI Automation Backend Started!")
+
+    question = input("Enter your question: ")
+    answer = ask_ai(question)
+
+    print("\nAI Response:")
+    print(answer)
