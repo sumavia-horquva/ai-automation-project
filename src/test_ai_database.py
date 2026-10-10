@@ -1,14 +1,15 @@
 
 from src.database import get_supabase_client
 from src.main import ask_ai
-
+from pathlib import Path
+from datetime import datetime
 try:
     client = get_supabase_client()
 
     response = (
         client.table("test_users")
         .select("full_name, role, status")
-        .limit(5)
+        .limit(30)
         .execute()
     )
 
@@ -32,7 +33,28 @@ try:
         )
 
         print("\nAI Analysis:")
-        print(ask_ai(prompt))
+
+        ai_result = ask_ai(prompt)
+        print(ai_result)
+
+        reports_folder = Path("reports")
+        reports_folder.mkdir(exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        report_file = reports_folder / f"ai_analysis_{timestamp}.txt"
+
+        report_content = (
+            "AI DATABASE ANALYSIS REPORT\n"
+            "===========================\n\n"
+            f"Total Users Analyzed: {len(users)}\n\n"
+            "AI Analysis:\n"
+            f"{ai_result}\n"
+        )
+
+        report_file.write_text(report_content, encoding="utf-8")
+
+        print(f"\nReport saved successfully: {report_file}")
 
 except Exception as error:
     print("Error:", error)
