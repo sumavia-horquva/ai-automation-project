@@ -6,6 +6,8 @@ This project demonstrates an AI-powered automation system developed using Python
 
 The system retrieves user information from a Supabase database, processes the data using a locally running AI model, and automatically generates analytical reports.
 
+The project also integrates Make.com webhooks with Google Sheets to enable event-driven automation. A Python connector sends structured JSON data to a Make.com webhook, which automatically adds the received information as a new row in Google Sheets.
+
 ## Project Objectives
 
 - Connect a Python application to a cloud database.
