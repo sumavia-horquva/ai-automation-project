@@ -1,0 +1,45 @@
+
+{
+  "source": "Slack",
+  "data_type": "mock_messages",
+  "environment": "testing",
+  "workspace": "Horquva AI Automation",
+  "channels": [
+    {
+      "id": "C001",
+      "name": "general",
+      "messages": [
+        {
+          "id": "MSG001",
+          "user": "Sumavia Abid",
+          "text": "AI Automation FYP project setup completed.",
+          "timestamp": "2026-10-20T09:00:00Z"
+        },
+        {
+          "id": "MSG002",
+          "user": "Project Manager",
+          "text": "Please share the latest integration testing report.",
+          "timestamp": "2026-10-20T10:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "project-updates",
+      "messages": [
+        {
+          "id": "MSG003",
+          "user": "Sumavia Abid",
+          "text": "Microsoft Entra ID mock integration testing completed.",
+          "timestamp": "2026-10-21T11:00:00Z"
+        },
+        {
+          "id": "MSG004",
+          "user": "QA Team",
+          "text": "Slack mock data validation is pending.",
+          "timestamp": "2026-10-21T12:15:00Z"
+        }
+      ]
+    }
+  ]
+}
