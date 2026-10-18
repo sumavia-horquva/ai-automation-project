@@ -1,0 +1,32 @@
+
+{
+  "source": "Microsoft Entra ID",
+  "data_type": "mock_users",
+  "environment": "testing",
+  "users": [
+    {
+      "id": "ENTRA-001",
+      "displayName": "Ali Khan",
+      "userPrincipalName": "ali.khan@example.com",
+      "department": "IT",
+      "jobTitle": "IT Administrator",
+      "accountEnabled": true
+    },
+    {
+      "id": "ENTRA-002",
+      "displayName": "Sara Ahmed",
+      "userPrincipalName": "sara.ahmed@example.com",
+      "department": "Human Resources",
+      "jobTitle": "HR Specialist",
+      "accountEnabled": true
+    },
+    {
+      "id": "ENTRA-003",
+      "displayName": "Ahmed Raza",
+      "userPrincipalName": "ahmed.raza@example.com",
+      "department": "Finance",
+      "jobTitle": "Finance Analyst",
+      "accountEnabled": false
+    }
+  ]
+}
