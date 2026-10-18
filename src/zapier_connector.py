@@ -34,7 +34,7 @@ def send_to_zapier(data):
 
 if __name__ == "__main__":
     test_data = {
-        "name": "Zapier Live Test User",
+        "name": "FYP Final Integration Test",
         "source": "Python Live Test",
         "status": "active"
     }
