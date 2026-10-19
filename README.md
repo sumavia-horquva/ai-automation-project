@@ -102,6 +102,41 @@ The `.env.example` file serves as a configuration template without exposing actu
 - Improve AI-generated insights.
 - Export reports in additional formats.
 
+## Slack Mock Integration
+
+The AI Automation FYP includes a Slack mock data integration module developed using Python and JSON.
+
+### Implementation Details
+
+- **Data Source:** Locally stored Slack-style JSON test data.
+- **Mock Dataset:** 4 simulated Slack messages.
+- **Python Connector:** `src/slack_connector.py`
+- **JSON Fixture:** `fixtures/mock_slack.json`
+- **Testing Date:** 18 October 2026
+- **Status:** Successfully implemented and tested with mock data.
+
+### Features Implemented
+
+- Load simulated Slack messages from a JSON file.
+- Process channel and message information.
+- Display usernames, message content, and timestamps.
+- Calculate the total number of messages.
+- Handle missing mock data files.
+
+### Test Results
+
+The Python connector successfully processed and displayed 4 simulated Slack messages.
+
+**Result:** Slack mock data integration test completed successfully.
+
+### Documentation
+
+[View Slack Mock Integration Documentation](documentation/SLACK_MOCK_INTEGRATION.md)
+
+### Limitations
+
+This module uses local JSON test data. Live Slack API connectivity, real-time synchronization, and message sending are not implemented.
+
 ## Conclusion
 
 This project demonstrates the integration of cloud-based data storage, Python automation, and locally hosted artificial intelligence to build a functional AI-powered reporting system.
