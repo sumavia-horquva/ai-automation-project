@@ -46,15 +46,28 @@ ai-automation-project/
 │   ├── config.py
 │   ├── database.py
 │   ├── main.py
+│   ├── ollama_connector.py
+│   ├── make_connector.py
+│   ├── entra_connector.py
+│   ├── entra_user_report.py
 │   ├── generate_report.py
-│   ├── test_connection.py
-│   ├── test_ai_database.py
-│   └── test_ollama.py
+│   └── slack_connector.py
+├── fixtures/
+│   ├── mock_entra.json
+│   └── mock_slack.json
+├── documentation/
+│   ├── AI_AUTOMATION_WORKFLOW.md
+│   ├── ENTRA_ID_MOCK_INTEGRATION.md
+│   ├── MAKE_GOOGLE_SHEETS_INTEGRATION.md
+│   ├── OLLAMA_CONNECTOR_TESTING.md
+│   ├── SLACK_MOCK_INTEGRATION.md
+│   ├── LIMITATIONS.md
+│   └── AI_Automation_FYP_Evidence_Report.pdf
 ├── reports/
-├── requirements.txt
 ├── .env.example
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## Installation and Setup
