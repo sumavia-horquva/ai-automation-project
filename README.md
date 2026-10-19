@@ -153,3 +153,25 @@ This module uses local JSON test data. Live Slack API connectivity, real-time sy
 ## Conclusion
 
 This project demonstrates the integration of cloud-based data storage, Python automation, and locally hosted artificial intelligence to build a functional AI-powered reporting system.
+
+
+## CSV Data Processing and Automated Reporting
+
+The project includes three Python-based CSV processing modules, successfully tested on 19 October 2026 using sample datasets.
+
+### Sales CSV Integration
+Processes sales transactions, calculates total sales revenue, analyzes payment statuses, and generates automated reports.
+
+[View Sales CSV Documentation](documentation/SALES_CSV_INTEGRATION.md)
+
+### Topics CSV Integration
+Processes topic records, analyzes statuses, priorities, and categories, and generates automated summary reports.
+
+[View Topics CSV Documentation](documentation/TOPICS_CSV_INTEGRATION.md)
+
+### Leads CSV Integration
+Processes lead records, analyzes lead statuses, sources, and priorities, and generates automated lead analysis reports.
+
+[View Leads CSV Documentation](documentation/LEADS_CSV_INTEGRATION.md)
+
+**Testing Status:** All three modules successfully tested with sample CSV data.
