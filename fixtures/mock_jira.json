@@ -1,0 +1,37 @@
+
+{
+  "project": {
+    "key": "FYP",
+    "name": "AI Automation Project"
+  },
+  "issues": [
+    {
+      "key": "FYP-101",
+      "summary": "Configure Supabase Database",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Ali Khan"
+    },
+    {
+      "key": "FYP-102",
+      "summary": "Implement Ollama AI Integration",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Sara Ahmed"
+    },
+    {
+      "key": "FYP-103",
+      "summary": "Develop Automation Dashboard",
+      "status": "In Progress",
+      "priority": "Medium",
+      "assignee": "Ahmed Raza"
+    },
+    {
+      "key": "FYP-104",
+      "summary": "Test Jira Mock Connector",
+      "status": "To Do",
+      "priority": "Medium",
+      "assignee": "Ali Khan"
+    }
+  ]
+}
