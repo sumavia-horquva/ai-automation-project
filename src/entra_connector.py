@@ -6,7 +6,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Mock Microsoft Entra ID data file
-DATA_FILE = BASE_DIR / "ai-automation-project-main" / "fixtures" / "mock_entra.json"
+DATA_FILE = BASE_DIR / "fixtures" / "mock_entra.json"
 
 
 def get_entra_users():
