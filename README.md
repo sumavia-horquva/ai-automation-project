@@ -175,3 +175,21 @@ Processes lead records, analyzes lead statuses, sources, and priorities, and gen
 [View Leads CSV Documentation](documentation/LEADS_CSV_INTEGRATION.md)
 
 **Testing Status:** All three modules successfully tested with sample CSV data.
+
+
+### Backup CSV Integration
+
+Processes backup records, analyzes backup statuses and types,
+identifies failed backups, and generates automated reports.
+
+[View Backup CSV Documentation](documentation/BACKUP_CSV_INTEGRATION.md)
+
+### Finance CSV Integration
+
+Processes financial transactions, calculates confirmed income,
+expenses, and net balance, and generates automated financial reports.
+
+[View Finance CSV Documentation](documentation/FINANCE_CSV_INTEGRATION.md)
+
+**CSV Testing Status:** All five CSV modules successfully tested
+with sample data.

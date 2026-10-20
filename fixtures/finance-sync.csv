@@ -1,0 +1,9 @@
+transaction_id,department,transaction_type,amount,status,transaction_date
+F001,Sales,Income,15000,Completed,2026-10-20
+F002,Marketing,Expense,5000,Completed,2026-10-20
+F003,HR,Expense,3000,Pending,2026-10-20
+F004,IT,Expense,8000,Completed,2026-10-20
+F005,Sales,Income,22000,Completed,2026-10-20
+F006,Finance,Expense,4500,Failed,2026-10-20
+F007,Operations,Expense,6500,Completed,2026-10-20
+F008,Sales,Income,18000,Pending,2026-10-20
