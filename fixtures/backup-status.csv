@@ -1,0 +1,9 @@
+backup_id,system_name,backup_type,status,backup_date,duration_minutes
+B001,CRM Database,Full,Success,2026-10-19,25
+B002,Sales Database,Incremental,Success,2026-10-19,12
+B003,Finance Database,Full,Failed,2026-10-19,35
+B004,HR Database,Incremental,Success,2026-10-19,15
+B005,Marketing Database,Full,In Progress,2026-10-19,20
+B006,Customer Records,Incremental,Success,2026-10-19,18
+B007,Analytics Database,Full,Failed,2026-10-19,40
+B008,Inventory Database,Incremental,Success,2026-10-19,14
