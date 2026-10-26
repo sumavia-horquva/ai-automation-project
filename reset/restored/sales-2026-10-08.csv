@@ -1,0 +1,10 @@
+
+sale_id,date,customer_name,product,category,quantity,unit_price,total_amount,payment_status
+S001,2026-10-08,Ali Khan,Laptop,Electronics,2,85000,170000,Paid
+S002,2026-10-08,Sara Ahmed,Mouse,Accessories,5,1500,7500,Paid
+S003,2026-10-08,Ahmed Raza,Keyboard,Accessories,3,3500,10500,Pending
+S004,2026-10-08,Ayesha Malik,Monitor,Electronics,2,32000,64000,Paid
+S005,2026-10-08,Bilal Hussain,Headphones,Accessories,4,4500,18000,Pending
+S006,2026-10-08,Fatima Noor,Printer,Electronics,1,42000,42000,Paid
+S007,2026-10-08,Usman Tariq,USB Drive,Accessories,10,1200,12000,Paid
+S008,2026-10-08,Hina Shah,Webcam,Electronics,3,6500,19500,Pending

@@ -1,0 +1,9 @@
+lead_id,lead_name,email,source,status,priority,assigned_to
+L001,Ali Khan,ali@example.com,Website,New,High,Sara Ahmed
+L002,Sara Ahmed,sara@example.com,Facebook,Contacted,Medium,Ali Khan
+L003,Ahmed Raza,ahmed@example.com,Google Ads,Qualified,High,Ayesha Malik
+L004,Ayesha Malik,ayesha@example.com,Referral,New,Medium,Bilal Hussain
+L005,Bilal Hussain,bilal@example.com,Website,Converted,High,Fatima Noor
+L006,Fatima Noor,fatima@example.com,Instagram,Contacted,Low,Usman Tariq
+L007,Usman Tariq,usman@example.com,LinkedIn,Qualified,Medium,Hina Shah
+L008,Hina Shah,hina@example.com,Referral,Converted,High,Ali Khan

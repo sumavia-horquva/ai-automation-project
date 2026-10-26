@@ -1,0 +1,9 @@
+topic_id,topic_name,category,priority,status,assigned_to
+T001,AI Automation,Artificial Intelligence,High,Active,Ali Khan
+T002,CRM Workflow Automation,Business Automation,High,Active,Sara Ahmed
+T003,Python Data Processing,Programming,Medium,Active,Ahmed Raza
+T004,Chatbot Development,Artificial Intelligence,High,In Progress,Ayesha Malik
+T005,Email Automation,Marketing Automation,Medium,Completed,Bilal Hussain
+T006,Database Integration,Data Management,High,Active,Fatima Noor
+T007,API Integration,Software Development,Medium,In Progress,Usman Tariq
+T008,Sales Reporting,Business Analytics,Low,Completed,Hina Shah
