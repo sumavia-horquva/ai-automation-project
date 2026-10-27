@@ -10,7 +10,7 @@
 - [ ] Confirm all required project tasks are completed.
 - [ ] Review regression test results and MVP support evidence.
 - [ ] Obtain pending A12–A14 witness verification and sign-off.
-- [ ] Verify all required files are committed to GitHub.
+- [x] Verify all required files are committed to GitHub.
 
 ## 2. Data Backup and Archival
 - [ ] Export and securely archive required Supabase database records.
