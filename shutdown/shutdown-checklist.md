@@ -18,6 +18,8 @@
 - [ ] Archive final reports, test results, and documentation.
 - [ ] Confirm archived data can be restored if required.
 - Verification note (30 October 2026): Archived test_users_rows.csv was restored to a temporary location, matched the original byte-for-byte, and all 30 CSV records were verified. Full Supabase database restore verification remains pending.
+- Schema verification (30 October 2026): All four archived schema files were found, readable, and non-empty. Full Supabase database backup and restore verification remain pending.
+- CSV export verification (30 October 2026): Latest Supabase test_users export was archived locally and compared with the previous export using FC /B. Result: no differences encountered; 30 test-user records confirmed.
 ## 3. Integration Shutdown
 - [ ] Stop active ngrok tunnels, if running.
 - [ ] Disable unused automation workflows and webhooks.
